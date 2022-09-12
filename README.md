@@ -1,0 +1,2 @@
+# image slider
+ ceva detalii
