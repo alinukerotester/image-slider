@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        45deg, #baffda, #fffcb4
+    );
+}
+
+.carousel {
+    width: 600px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    padding: 5px;
+    color: #000;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
